@@ -180,6 +180,27 @@
 <script>
 export default {
   name: 'Home',
+  metaInfo: {
+    title: '首页 - 学中文 | 专业中文教学平台',
+    meta: [
+      {
+        name: 'description',
+        content: '专业的在线中文教学平台，提供个性化中文课程。经验丰富的教师团队，帮助欧美学习者快速掌握中文技能。'
+      },
+      {
+        name: 'keywords',
+        content: '中文教学,汉语学习,Chinese learning,Mandarin,在线中文课程,中文老师'
+      },
+      {
+        property: 'og:title',
+        content: '学中文 - 专业中文教学平台'
+      },
+      {
+        property: 'og:description',
+        content: '专业的在线中文教学平台，提供个性化中文课程。经验丰富的教师团队，帮助欧美学习者快速掌握中文技能。'
+      }
+    ]
+  },
   data() {
     return {
       features: [
